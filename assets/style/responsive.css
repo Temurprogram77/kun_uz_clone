@@ -1,0 +1,236 @@
+@media screen and (max-width: 1350px) {
+  .main-interview .black_news_latest #new-latest_four {
+    display: none;
+  }
+  .swiper_container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .swiper_container .fourth_swiper {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header_container .header .nav .logo {
+    width: 80px;
+    padding: 0 0 0 20px;
+  }
+  .header_container .header .nav .pages {
+    gap: 15px;
+    font-size: 12px;
+  }
+  .header_container .header .nav .pages a {
+    padding: 0;
+  }
+  .header_container .header .nav .working_part {
+    padding: 0 20px 0 0;
+    gap: 10px;
+  }
+  .header_container .header .nav .working_part .language {
+    font-size: 12px;
+  }
+  .footer_container .footer-top_part {
+    display: flex;
+    flex-direction: column;
+  }
+  .advertising_container .advertising {
+    gap: 9rem;
+  }
+  .latest_news_container {
+    flex-direction: column;
+  }
+  .latest_news_container .main_news-left .main_news-bottom .news_right {
+    display: none;
+  }
+  .latest_news_container .main_news-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .current_messages_container .current-wrapper .current-writing {
+    margin-top: 30px;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  .current_messages_container .current-wrapper .current_three-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .current_messages_container .current-wrapper .current_three-boxes .current_box-item_one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .current_messages_container .current-wrapper .current_three-boxes .current_box-item_one h2,
+  .current_messages_container .current-wrapper .current_three-boxes .current_box-item_one p {
+    padding: 0 10px;
+  }
+  .current_messages_container .current-wrapper .current_three-boxes .current_box-item_one img {
+    width: 500px;
+  }
+  .current_messages_container .current-wrapper .current_three-boxes .current_box-item_two .jaxon_writing,
+  .current_messages_container .current-wrapper .current_three-boxes .current_box-item_two .uzb_writing {
+    display: none;
+  }
+  .new_video_container .new_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+  .main-life_list {
+    display: flex;
+    justify-content: center;
+  }
+  .main-interview .black_news_latest {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pages {
+    gap: 10px;
+    font-size: 12px;
+  }
+  .pages a {
+    padding: 0;
+  }
+  .pages #six,
+  .pages #seven,
+  .pages #eight {
+    display: none;
+  }
+  .advertising_container .advertising {
+    font-size: 14px;
+    gap: 5rem;
+  }
+  .latest_news_container {
+    flex-direction: column;
+  }
+  .latest_news_container .main_news-left .main_news-top {
+    display: flex;
+    flex-direction: column;
+  }
+  .latest_news_container .main_news-left .main_news-top .main-news_left-img img {
+    width: 400px;
+  }
+  .latest_news_container .main_news-left .main_news-bottom .news_left .new-items {
+    gap: 10px;
+    padding: 10px;
+    margin: 0;
+  }
+  .latest_news_container .main_news-left .main_news-bottom .news_left .new-items .new-item_writing {
+    font-size: 15px;
+  }
+  .new_video_container .video-writing {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  .new_video_container .news-card_box {
+    margin: 0 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pages {
+    gap: 10px;
+    font-size: 12px;
+  }
+  .pages a {
+    padding: 0;
+  }
+  .pages #four,
+  .pages #five {
+    display: none;
+  }
+  .advertising_container .advertising {
+    gap: 2rem;
+  }
+  .advertising_container .advertising .four_advertising {
+    display: none;
+  }
+  .aqsh_2024,
+  .elon {
+    display: none;
+  }
+  .main-life_list .main-life_item {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  .pages {
+    gap: 10px;
+    font-size: 12px;
+  }
+  .pages a {
+    padding: 0;
+  }
+  .pages #three {
+    display: none;
+  }
+  .footer_container .footer-top_part .footer_pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_container .footer-top_part .apps_list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .advertising_container .advertising {
+    gap: 2rem;
+  }
+  .advertising_container .advertising .two_advertising,
+  .advertising_container .advertising .three_advertising {
+    display: none;
+  }
+  .latest_news_container {
+    flex-direction: column;
+  }
+  .latest_news_container .main_news-left .main_news-top {
+    display: flex;
+    flex-direction: column;
+  }
+  .latest_news_container .main_news-left .main_news-top .main-news_left-img {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .latest_news_container .main_news-left .main_news-top .main-news_left-img img {
+    width: 300px;
+  }
+  .latest_news_container .main_news-left .main_news-bottom .news_left .new-items {
+    flex-direction: column;
+  }
+  .latest_news_container .main_news-left .main_news-bottom .news_left .new-items img {
+    width: 150px;
+  }
+  .current_messages_container .current-wrapper .current_three-boxes .current_box-item_one img {
+    width: 300px;
+  }
+  .current_messages_container .current-wrapper .current_three-boxes .current_box-item_two {
+    padding: 10px;
+  }
+  .current_messages_container .current-wrapper .current_three-boxes .current_box-item_two img {
+    width: 200px;
+    height: 90px;
+  }
+  .current_messages_container .current-wrapper .current_three-boxes .current_box-item_three {
+    padding: 10px;
+  }
+  .current_messages_container .current-wrapper .current_three-boxes .current_box-item_three img {
+    width: 200px;
+    height: 90px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header_container .header .nav .pages {
+    display: none;
+  }
+  .header_container .header .nav .working_part {
+    padding: 0;
+  }
+}/*# sourceMappingURL=responsive.css.map */
